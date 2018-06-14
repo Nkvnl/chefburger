@@ -1,11 +1,21 @@
 body{
-    background:white;
+    background:white!important;
     color:#fff;
+}
+
+.reserveren{
+    position:absolute;
+    bottom:12%;
 }
 
 .navbar{
     border-bottom:#DB4800 3px solid;
     z-index:1000;
+        box-shadow: 5px 5px 5px #595756;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size:150%;
+
+
 }
 
 .best-burgers{
@@ -15,25 +25,36 @@ body{
 }
 
 .fa-mobile{
-    font-size:150%;
+    font-size:100%;
 }
 
 .carousel-content1 {
   position: absolute;
-  bottom: 30%;
-  left: 60%;
+  bottom: 5%;
+  left: 70%;
   z-index: 20;
   color: white;
-  text-shadow: 0 1px 1px rgba(0,0,0,.6);
-  background: rgba(137, 137, 137, .7);
-  box-shadow:0 3px 5px rgba(0,0,0,.6);; 
+  text-shadow: 0 1px 1px ;
   font-size:120%;
-  border-radius:50%;
+  font-weight:bold;
+  font-family: 'Alegreya Sans SC', sans-serif;
+
 } 
+
+.carousel-p{
+    text-shadow: 4px 4px 0px black;
+    font-size:1.3em;
+}
+
+.carousel-p1{
+    padding:auto;
+    text-shadow: 4px 4px 0px black;
+
+}
 
 .carousel-content2 {
   position: absolute;
-  bottom: 0%;
+  bottom: 2%;
   left: 20%;
   z-index: 20;
 } 
@@ -42,12 +63,71 @@ body{
      box-shadow:0 1px 1px rgba(0,0,0,.6);; 
 }
 
+.border1{
+    border:2px solid red;
+}
+
+.bestp{
+    width:30%;
+    height:30%;
+    display: block;  
+    margin:auto; 
+    
+}
+
+.bp2{
+         font-family: 'Alegreya Sans SC', sans-serif;
+        font-size:1.5em;    
+        color:#808080;
+}
+
+.bestp1{
+    width:30%;
+    height:30%;
+    text-shadow: 2px 2px 0px gray;
+    font-size:1.8em;
+    white-space: nowrap;
+
+
+}
+
+.best1{
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size:1.2em;
+}
+
 .bold{
     font-weight:900;
 }
 
 .news{
-    border-top:#f9e600 3px solid;
+    border-to:#f9e600 3px solid;
+    font-weight:600;
+    font-size:200%!important;
+
+
+}
+
+.bg-1{
+    background:black;
+    border-top:#DB4800 3px solid;
+    
+}
+
+.news1{
+    font-weight:600;
+    font-size:400%!important;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-shadow: 4px 4px 0px gray;
+    color:black;
+}
+
+.news2{
+    font-size:150%;
+}
+
+
+
 
 }
  
@@ -56,12 +136,83 @@ body{
 }
 .carousel-inner{
   width:100%;
-  max-height: 635px !important;
+  max-height: 681px !important;
+}
+
+.phone{
+    font-size:150%;
+}
+
+.coe{
+            box-shadow: 5px 5px 5px black;
+
+}
+
+.card{
+            box-shadow: 10px 10px 5px #595756;
+
 }
 
 .footer{
     background:black;
+   min-height: calc(100% - 285px);
     border-top:2px solid #B21C10;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+.b1{
+    border-right:solid 1px gray;
+    
+}
+
+.b2{
+    border-left:solid 1px gray;
+    
+}
+
+.p2{
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5em;
+    color:white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+
+
+.p1 {
+line-height: 0.4em;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-size:1em;
+}
+.p3{
+    font-size:1.5em;
+}
+
+.p4{
+    font-size:1.5em;
+}
+
+.p5{
+    font-size:1.2em;
+    color:white;
+    line-height: 0.4em;
+    margin-left:35px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align:center;
+    margin-top:20px;
+
+
+}
+.p6{
+    font-size:1.6em;
+}
+
+
+.fas {
+line-height: 0em;
 }
 
 .nav-link{
@@ -94,10 +245,10 @@ body{
 }
 
 #home-section{
-   background-image: url("https://images.pexels.com/photos/9746/people-mother-family-father.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+   background-image: url("../image/Carrousel1.jpg");
     background-size:cover;
-    background-attachment:fixed;
-    min-height:700px;
+    /*background-attachment:fixed;*/
+    min-height:650px;
 }
 
 .nav-link{
@@ -135,11 +286,11 @@ font-size:100%;
     background:#fff;
     padding:4px;
     border-radius:5px;
-    font-size:30px;
+    font-size:;
 }
 
 .best{
-    border-top:#DB4800 3px solid;
+    border-to:#DB4800 3px solid;
 }
 
 #create-section{
